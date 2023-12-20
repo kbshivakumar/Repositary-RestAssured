@@ -37,6 +37,7 @@ public class PutPatchRequest {
 		    then().
 		    statusCode(200).
 		    log().all();
+		System.out.println("patch request is successfully completed");
 		    
 		 
 	}

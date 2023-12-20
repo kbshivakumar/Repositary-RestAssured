@@ -126,7 +126,7 @@ public class CustomAPIGetPutPostPatchDelete {
 			accept(ContentType.JSON).body(obj.toJSONString()).
 			when().put("/subjects/2").
 			then().statusCode(200); //201 for successful creation in body
-			
+			System.out.println("Put request is completed");
 		}
 	
 	
