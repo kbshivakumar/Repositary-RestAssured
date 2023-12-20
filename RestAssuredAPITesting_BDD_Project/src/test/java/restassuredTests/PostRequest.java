@@ -42,6 +42,7 @@ public class PostRequest {
 	    then().
 	    statusCode(200).
 	    log().all();
+		System.out.println("Post is commited");
 	}
 
 }
